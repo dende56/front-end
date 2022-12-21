@@ -1,0 +1,6 @@
+1. Семантика сторінки 
+2. Семантика та Html 5
+3. Теги div, article, aside, header, footer, center, section
+4. Класи тегів
+5. Відформатувати текст
+

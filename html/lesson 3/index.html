@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Lesson 3</title>
+
+
+
+
+   <style>                              /* style тег у якому ми пишемо стилі для сторінки, тут і коменти ставляться в інших рамках */
+      html {                           /**/
+         scroll-behavior: smooth;      /* цей код додає плавний скрол, для сторінки */
+      }                                  /**/      
+      
+    
+      img,video{                       /* на цей код не звертай увагу, він вказує висоту для зображень і відео. Пізніше будем говорити коли будем вчити стилі */
+         height:400px ;                /* на цей код не звертай увагу, він вказує висоту для зображень і відео. Пізніше будем говорити коли будем вчити стилі */
+      }                                /* на цей код не звертай увагу, він вказує висоту для зображень і відео. Пізніше будем говорити коли будем вчити стилі */
+   </style>
+
+
+
+
+</head>
+
+<body>
+   <h1 align="center">Lesson 3</h1>
+
+   
+   <!-- images -->
+   <div>
+      <img src="assets/img/xr.jpg" alt="Crossword">  <!--  добавляємо зображення за допомогою тегу img , в атрибуті src пишемо шлях або адресу зображення, в атрибуті alt пишемо текст який з'явиться якщо зображення не буде знайдено(допустимо помилку в шляху до зображення/ адреса не буде актуальною) можна і писати атрибути width i hight що задають вистоу та ширину але то ми будемо описувати в стилях -->
+      <img src="assetвs/img/xr.jpg" alt="Crossword"> <!-- допущено помилку в адресі зображення. Перевір що у браузері ;)-->
+   </div> 
+
+
+   <!-- video -->
+   <div>
+      <h3>1</h3>
+      <video src="/assets/videos/video.mp4"></video> <!--  добавляємо зображення за допомогою тегу video  в атрибуті src пишемо шлях або адресу зображення, можна також як і з img писати атрибути width i hight що задають вистоу та ширину але то ми будемо описувати в стилях -->
+   </div>
+   <div>
+      <h3>2</h3>
+      <video src="/assets/videos/video.mp4" controls ></video> <!-- Добавили панель керування -->
+   </div>
+   <div>
+      <h3>3</h3>
+      <video src="/assets/videos/video.mp4" controls poster="./assets/img/xr.jpg"></video> <!-- Добавили прев'ю -->
+   </div>
+   <div>
+      <h3>4</h3>
+      <video src="/assets/videos/video.mp4" controls poster="./assets/img/xr.jpg" autoplay></video> <!-- Добавили автоплей -->
+   </div>
+   
+   
+
+   <!-- Link -->
+   <a href=''>link</a> <!-- це є посилання, з текстом link, в атрибуті href ми записали саме посилання -->
+   <a href="https://github.com/dende56/front-end.git">Git hub</a>
+   <!-- ul це список -->
+   <!-- li це предмети у списках -->
+   <!-- nav це тег з html 5 використовується для блоків навігації, можна і писати div, але оскільки в html 5 є спец тег для цього, будемо використовувати його; nav від navigate -->
+      <nav>
+         <ul>
+            <li><a href='index-repeating.html'> посилання веде на сторінку index-repeating</a></li> 
+            <li><a href='index-repeating.html#footer'> посилання веде на сторінку index-repeating до id footer</a></li> 
+            <li><a href='/_/about.html'>посилання веде на сторінку about</a></li>
+            <li><a href='#title2'>посилання веде на цій сторінці до id title2</a></li> 
+            <li>Груші</li>
+         </ul>
+      </nav>
+      <h2 id="title1">Title</h2> <!-- на сторінці може бути тільки один айдішник конкретним ім'ям, тобто другого елемента з айдішником title1 не може бути, це неправильно: у стилях,коли будем писати, будуть проблеми, у javascript-і події неправильно відображатись   -->
+   </div>
+
+   <div>
+      obcaecati eum assumenda perferendis cumque eos
+      eveniet.
+      Aut error nisi dolorum ad explicabo vitae alias maiores maxime quos tempora facere vel, vero obcaecati? Deleniti
+      quis
+      suscipit praesentium officia impedit ipsam sed! Qui quos possimus veniam illum asperiores.
+      Reprehenderit nihil ex, repellat voluptates perspiciatis laborum quibusdam dolorem quidem ut commodi voluptatem
+      placeat facilis doloribus nobis adipisci pariatur itaque aut asperiores voluptate dolor assumenda, porro quasi
+      natus?
+      Porro, ipsum.
+      Aliquam iure itaque impedit nihil nam ex odit a quas voluptate quo vero, rem, pariatur doloribus nisi ducimus aut
+      quod recusandae dicta placeat molestias deleniti commodi ut eius. Praesentium, ratione.
+      Mollitia veritatis magni maxime ipsam, cum possimus sint reprehenderit voluptatum et fugit beatae debitis quasi
+      est
+      tempore perferendis iure laboriosam repellendus sit eaque saepe. Eligendi blanditiis unde tempore sint placeat.
+      Eum, error, facere et fugiat ipsa quidem quos suscipit itaque rem natus totam quibusdam unde pariatur sint rerum
+      doloremque voluptate reprehenderit, cumque dolorum doloribus nobis ex maiores accusantium sed. Impedit!
+      Maxime voluptatum, sequi molestias iste accusamus vero eaque repellat ab impedit magni ducimus laborum
+      perspiciatis
+      voluptatem illo quam hic. Culpa sit ad vero dolorum accusantium modi. Perferendis nisi magni officia.
+      Debitis officiis veniam ut quidem non corporis, eaque ullam ea nobis tempore deserunt illo omnis possimus aliquam
+      voluptatibus ex. Sed recusandae repellat ipsa officiis adipisci dolorum cumque obcaecati? Soluta, fugit!
+      Iure repudiandae harum quidem consectetur, atque quisquam. Eos sed aperiam omnis, perferendis odit vero autem
+      similique architecto quas culpa nobis. Distinctio incidunt adipisci officiis error quos deleniti enim maiores
+      aspernatur!
+      Ipsam facere perspiciatis ipsa vitae sint eius reiciendis incidunt perferendis praesentium pariatur asperiores
+      numquam veniam explicabo doloribus, expedita ullam reprehenderit. Laboriosam minus illo, itaque quos enim quaerat
+      maxime nesciunt perspiciatis.
+      Nemo praesentium explicabo fugiat eaque dolorem neque quibusdam ratione consequuntur pariatur molestias ullam
+      accusantium omnis voluptatem, doloremque dolores voluptate quasi sint totam. Quaerat soluta tempore facere
+      corporis
+      perspiciatis assumenda eum!
+      Totam alias eaque incidunt reiciendis tenetur nesciunt facere voluptates labore adipisci a culpa magnam expedita
+      sapiente at, in fuga tempora quia facilis voluptate veritatis perspiciatis impedit dicta. Sapiente, eligendi
+      nesciunt.
+      Error impedit asperiores ratione quidem eius eveniet qui veniam molestias odit sunt, fugiat suscipit laudantium
+      optio
+      debitis earum ab quo reiciendis culpa sapiente vitae dicta accusantium! Similique cumque labore temporibus?
+      Optio deserunt perspiciatis voluptates repudiandae ea iste! Rem maiores cum voluptate rerum aut vero sequi, dolor
+      cumque impedit. Itaque similique nam dolor numquam pariatur necessitatibus harum! Dignissimos, modi. Laborum,
+      aliquam.
+      Reprehenderit saepe deserunt earum velit similique autem laudantium porro, quis unde ullam officiis laborum odio
+      voluptate veniam. Error nobis eius repellendus aut excepturi! Magnam sapiente dolorum fugit expedita quo.
+      Voluptatibus?
+      Fuga quasi qui ipsam molestias at ducimus blanditiis eos temporibus vel! Natus incidunt iusto vero reprehenderit
+      quo
+      itaque impedit! Dolore molestias repellendus modi ad, aliquid dolor similique consequatur est eligendi?
+      Illum quisquam quis eius ea nam autem cumque numquam illo culpa vel adipisci maxime, veniam esse optio excepturi,
+      perferendis aspernatur necessitatibus? Doloremque ducimus quidem eos suscipit minus? Accusantium, corporis enim!
+      Modi facere atque eaque beatae soluta quis veniam explicabo repellat. Deleniti voluptatum corporis nobis suscipit
+      modi pariatur quod magni facilis explicabo voluptatem omnis perspiciatis sunt natus nulla, amet animi illum.
+      Autem eos consequuntur quibusdam adipisci, nostrum eius illum perferendis libero iste sunt debitis dolore et esse!
+      Velit vitae doloribus ad, temporibus unde maiores, nemo libero tenetur omnis consectetur consequuntur
+      exercitationem.
+      Cupiditate at odit minus quasi nam magni, iusto praesentium ut. Reiciendis quaerat tempora dolore nulla
+      consequatur,
+      maiores pariatur rem, ullam, eos soluta delectus voluptates? Eum eveniet saepe recusandae reprehenderit quasi.
+      Ullam voluptas minima ut provident enim est, repellat animi amet, illum sunt eos aliquam quasi, impedit deleniti
+      iusto facilis consectetur ea magni. Provident laboriosam laborum ipsa debitis, beatae itaque suscipit?
+      Non, rerum molestias. Nostrum laborum soluta id, ut, impedit esse pariatur, odit quas voluptates voluptas ullam
+      rem.
+      Nisi fuga saepe expedita sint ratione dignissimos explicabo rem minima, dolores earum vel!
+      Amet, nulla reprehenderit magnam quaerat animi ratione asperiores consequatur ipsa, error illum officia possimus
+      est
+      qui quidem facere, corporis dolores omnis commodi eum distinctio soluta quasi odit! Quisquam, totam eos.
+      Quas beatae non nihil accusantium ratione repudiandae soluta perspiciatis quisquam officiis dolorem aperiam, fuga
+      corporis fugiat! Ullam, iste facilis, exercitationem dolores eum culpa temporibus ad voluptatibus delectus, eius
+      hic
+      perspiciatis!
+      Praesentium, minus et. Et aperiam inventore iure reprehenderit ad explicabo accusamus quae maxime exercitationem
+      illum aliquam pariatur, nulla quasi itaque repellendus eligendi! Distinctio dolore nulla sequi illum tempora
+      culpa!
+      Voluptas.
+      Nihil cum sunt praesentium aperiam architecto nam odio repellat beatae numquam, debitis iure qui quos consequatur
+      quia optio, neque at officiis vel quo dolore accusantium temporibus! Voluptatem, earum. Alias, fugiat.
+      <h2 id="title2">Title</h2> 
+   </div>
+</body>
+
+</html>
