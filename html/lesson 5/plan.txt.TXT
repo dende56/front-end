@@ -1,0 +1,7 @@
+1. Повторення
+2. Audio
+3. Веб форми 
+4. input:text,emal,password,button,checbox,option,color,date,week,time,file,hidden,number,month,radio,range,search,,textarea,tel,url
+5. textarea,label
+5. Завдання написати веб форму, завантажити git hub
+6. URL: https://school-55.000webhostapp.com/
