@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+.box {
+   width: 500px;
+   background-color: wheat;
+
+   margin: 30px auto;
+   padding: 20px;
+
+   /* box-sizing: content-box; */
+   box-sizing: border-box;
+}
+
+/* .parent {
+   color: chartreuse;
+   font-size: 1.5em;
+   text-align: center;
+}
+
+.child {
+   color: inherit;
+   font-size: 1em;
+}
+
+.child {
+   color: inherit;
+   font-size: 0.5em;
+} */
+
+.item {
+   position: relative;
+
+   font-size: 18px;
+   /* font-family: 'Julee', 'Inconsolata', cursive; */
+   font-family: 'Dosis', sans-serif;
+   text-transform: initial;
+
+   /* white-space: normal; */
+   /* white-space: nowrap; */
+   /* white-space: pre; */
+   /* white-space: pre-wrap; */
+   /* white-space: pre-line; */
+   /* white-space: break-spaces; */
+   /* white-space: inherit; */
+   /* white-space: initial; */
+
+
+   /* word-break: normal; */
+   /* word-break: break-all; */
+   /* word-break: keep-all; */
+   /* word-break: inherit; */
+   /* word-break: initial; */
+
+   /* word-spacing: 10pt; */
+
+   letter-spacing: 1px;
+
+   /* word-spacing: normal; */
+   /* word-spacing: 1px; */
+   /* letter-spacing */
+   text-indent: 2em;
+
+   /* text-indent: 2em; */
+
+}
+
+.item::first-letter {
+   font-size: 30px;
+   color: rgb(132, 0, 255);
+}
+
+.item::first-line {
+   color: rgb(0, 255, 34);
+}
+
+code.php {
+   background-color: rgb(251, 255, 0);
+}
+
+/* 
+.item::before{
+   content: '';
+   position: absolute;
+   left: 30px;
+   top:28px;
+   background-color: aqua;
+   width: 10px;
+   height: 10px;
+} */
