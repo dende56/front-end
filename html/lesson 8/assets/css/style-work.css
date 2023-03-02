@@ -45,18 +45,19 @@ p {
 .circles-wrapper {
    width: 80vw;
    margin: 0 auto;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .circles p {
-   width: 24%;
-   height: 24%;
-   display: inline-block;
+   height: 200px;
    background-color: #FEFEFE;
    color: #E39F8B;
    font-weight: 700;
    border-radius: 9999px;
    text-align: center;
-   padding-top: 10%;
    aspect-ratio: 1;
    font-size: 2em;
 }
